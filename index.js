@@ -240,7 +240,7 @@ function get20s(array){
       let dob = parseInt(yearSplit[0]);
       let dod = parseInt(yearSplit[1]);
       if(dob >= 1900 && dod < 2000) {
-          artists20s.push(array[i][name]);
+          artists20s.push(array[i]["name"]);
       }
   }
   return artists20s;
